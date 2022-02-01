@@ -1,0 +1,75 @@
+
+#  <Text onPress={(copyToClipboardWhatsapp(), onToggleSnackBar)}>
+#             Link To GitHub
+#           </Text>
+
+#            <Text>
+#             It is a long established fact that a reader will be distracted by
+#             the readable content of a page when looking at its layout. The point
+#             of using Lorem Ipsum is that it has a more-or-less normal
+#             distribution of letters, as opposed to using 'Content here, content
+#             here', making it look like readable English. Many desktop publishing
+#           </Text>
+
+
+          # onPress={() => Linking.openURL("http://google.com")}
+
+
+
+
+
+
+
+
+
+          #           <Text style={styles.title}>Contact Number</Text>
+          # <TouchableOpacity
+          #   onPress={(copyToClipboard, onToggleSnackBar)}
+          #   style={styles.contactElementContainer}
+          # >
+          #   <View style={{ flexDirection: "row" }}>
+          #     <Image
+          #       style={{ height: 20, width: 20 }}
+          #       source={require("../../assets/phone.png")}
+          #     />
+          #     <Text style={{ color: "#fff", fontSize: 18, marginLeft: 8 }}>
+          #       +923406944269
+          #     </Text>
+          #   </View>
+          #   <Text
+          #     style={{
+          #       color: "#fff",
+          #       fontSize: 10,
+          #       marginTop: 7,
+          #       marginRight: 4,
+          #     }}
+          #   >
+          #     Click to copy it
+          #   </Text>
+          # </TouchableOpacity>
+
+          # <Text style={styles.title}>Email Address</Text>
+          # <TouchableOpacity
+          #   onPress={onToggleSnackBar}
+          #   style={styles.contactElementContainer}
+          # >
+          #   <View style={{ flexDirection: "row" }}>
+          #     <Image
+          #       style={{ height: 20, width: 20 }}
+          #       source={require("../../assets/at.png")}
+          #     />
+          #     <Text style={{ color: "#fff", fontSize: 18, marginLeft: 8 }}>
+          #       abrehman.ibrahim@gmail.com
+          #     </Text>
+          #   </View>
+          #   <Text
+          #     style={{
+          #       color: "#fff",
+          #       fontSize: 10,
+          #       marginTop: 7,
+          #       marginRight: 4,
+          #     }}
+          #   >
+          #     Click to copy it
+          #   </Text>
+          # </TouchableOpacity>
